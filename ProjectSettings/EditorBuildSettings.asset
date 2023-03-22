@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/InteractiveFilter Submission.unity
     guid: aabee6e923eeb7e40bc29413b3406485
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ARMarker.unity
     guid: 2a1d71240b67782418732045783b153d
   m_configObjects:
