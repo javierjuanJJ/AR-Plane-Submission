@@ -1410,6 +1410,7 @@ GameObject:
   - component: {fileID: 1552579543}
   - component: {fileID: 1552579544}
   - component: {fileID: 1552579545}
+  - component: {fileID: 1552579546}
   m_Layer: 0
   m_Name: Visual Scripts
   m_TagString: Untagged
@@ -1457,7 +1458,11 @@ MonoBehaviour:
       Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"resetButton","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"ar
       session","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.XR.ARFoundation.ARSession,
-      Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Unity.XR.ARFoundation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"horizontalButton","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"vericalButton","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"horizontalPrefab","value":{"$content":10,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"verticalPrefab","value":{"$content":11,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1619231858}
     - {fileID: 1971765939}
@@ -1467,6 +1472,10 @@ MonoBehaviour:
     - {fileID: 1125729853}
     - {fileID: 339349802}
     - {fileID: 1167446572}
+    - {fileID: 1489129100}
+    - {fileID: 1980140537}
+    - {fileID: 8058794327697516652, guid: ba82c2ad484f24daab641702ff8a6d10, type: 3}
+    - {fileID: 4740419649091816049, guid: 2fa7d0e46cbecad4083cd521a29f1aec, type: 3}
 --- !u!4 &1552579542
 Transform:
   m_ObjectHideFlags: 0
@@ -1530,6 +1539,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 26963f5244d82fe4595552a76420ac00, type: 2}
+--- !u!114 &1552579546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552579539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c41799a3bd4a5f1439c7df25f61bcb15, type: 2}
 --- !u!1001 &1619231857
 PrefabInstance:
   m_ObjectHideFlags: 0
