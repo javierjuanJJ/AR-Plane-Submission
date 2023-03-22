@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 7250028022536319702}
   m_Layer: 0
   m_Name: JohnLemon_HorizontalPortal__Trapdoor
-  m_TagString: Untagged
+  m_TagString: portal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
