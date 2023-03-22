@@ -463,7 +463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 1556680729500490526, guid: b1bdc1f78fe1c0942af8558c8a9aacee,
     type: 3}
-  m_DetectionMode: 1
+  m_DetectionMode: 2
 --- !u!1 &1167446570
 GameObject:
   m_ObjectHideFlags: 0
