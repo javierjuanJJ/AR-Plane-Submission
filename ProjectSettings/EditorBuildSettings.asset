@@ -5,30 +5,18 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Settings/Project Configuration/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
-    path: Assets/Scenes/AR Template Scene.unity
-    guid: e73fbcfdacf88a549ac476f6700a5903
-  - enabled: 0
-    path: Assets/Scenes/Basic_Face_Filter.unity
-    guid: e51c1b9d8a2d5ae42aa8a7e64b3e0b08
-  - enabled: 0
-    path: Assets/Scenes/Basic_Face_Filter_Submission.unity
-    guid: 0dd85a5a6b2d2624e88034c1bf6da391
-  - enabled: 0
-    path: Assets/Scenes/InteractiveFilter.unity
-    guid: 0186529bc39dc7e4c97d0f0992e09e00
-  - enabled: 0
-    path: Assets/Scenes/InteractiveFilter Submission.unity
-    guid: aabee6e923eeb7e40bc29413b3406485
-  - enabled: 0
-    path: Assets/Scenes/ARMarker.unity
-    guid: 2a1d71240b67782418732045783b153d
   - enabled: 1
-    path: Assets/Scenes/AR Portal.unity
-    guid: 64ddae60427f46f4cb3c3b95131ced3c
+    path: Assets/_UFO Game/Scenes/StartScene.unity
+    guid: 16607250c35d8b84f8d4511d66e1bd40
+  - enabled: 1
+    path: Assets/_UFO Game/Scenes/MainScene.unity
+    guid: a540b77b88344ec41aa71b9ce443018f
+  - enabled: 1
+    path: Assets/_UFO Game/Scenes/WinScene.unity
+    guid: a704504e8e6d37c46ac9620bbed4e92c
+  - enabled: 1
+    path: Assets/_UFO Game/Scenes/LoseScene.unity
+    guid: 207b488a2374d234dab01ee0ed81f770
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6ee72d15cf39dd748a13eac57397b9af,
       type: 2}
