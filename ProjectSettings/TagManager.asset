@@ -10,6 +10,11 @@ TagManager:
   - modelObject
   - Ignite
   - portal
+  - UI
+  - Sheep
+  - CutScene
+  - Farmer
+  - gameplay
   layers:
   - Default
   - TransparentFX
